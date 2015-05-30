@@ -8,7 +8,7 @@
 
 	If you find it useful, please share your comments on asksan@live.ca
 """
-
+# pylint: disable=F0401
 import maya.cmds as cmds
 import maya.mel as mel
 

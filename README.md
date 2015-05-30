@@ -10,7 +10,7 @@ the selected objects material and shading network.
 1. copy the downloaded revealInOutliner.py in maya scripts folder
 2. In maya create a python button in shelf with the below two lines.
 
-  import revealInOutliner
-  
-  revealInOutliner.run()
+  `import revealInOutliner`
+
+  `revealInOutliner.run()`
 
