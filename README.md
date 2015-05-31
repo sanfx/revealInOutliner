@@ -1,16 +1,32 @@
-# revealInOutliner
+# revealInOutliner .. image:: https://img.shields.io/badge/revealInOutliner-Ver: 0.2-green.svg?style=flat-square
+==================
+
+
+.. image:: http://www.creativecrash.com/system/photos/000/246/872/246872/big/740071361.png?1348471615
+
+# What it does ?
+================
 
 Reveals selected object in maya outliner massive tree with just single click.
-Press CTRL key while clicking on shelfbar button to open hypershade  and graph
+This script does the same thing as doing opening outliner, click on Display > Reveal selected,
+except this script does these 3 steps in just one click.
+
+In addition, you can also press CTRL key while clicking on shelfbar button to open hypershade  and graph
 the selected objects material and shading network.
 
 
-# Install/ Usage Instruction
+# Install Instruction
+=====================
 
 1. copy the downloaded revealInOutliner.py in maya scripts folder
-2. In maya create a python button in shelf with the below two lines.
+2. In maya create a python button in shelf with the below 6 lines.
 
-  `import revealInOutliner`
-
-  `revealInOutliner.run()`
+	```python
+	try:
+		reload(revealInOutliner)
+		revealInOutliner.run()
+	except NameError:
+		import revealInOutliner
+		revealInOutliner.run()
+	```
 
