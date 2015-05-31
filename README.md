@@ -1,8 +1,16 @@
-# revealInOutliner .. image:: https://img.shields.io/badge/revealInOutliner-Ver: 0.2-green.svg?style=flat-square
+# revealInOutliner 
 ==================
+![Reveal In Outliner or hypershade]
+(https://img.shields.io/badge/revealInOutliner-Ver: 0.2-green.svg?style=flat-square)
+
+![Python Version]
+(https://img.shields.io/badge/Python-2.7-green.svg?style=flat-square)
 
 
-.. image:: http://www.creativecrash.com/system/photos/000/246/872/246872/big/740071361.png?1348471615
+
+
+![Maya - Python]
+(http://www.creativecrash.com/system/photos/000/246/872/246872/big/740071361.png?1348471615)
 
 # What it does ?
 ================
